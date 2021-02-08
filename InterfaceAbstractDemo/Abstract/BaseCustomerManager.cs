@@ -12,6 +12,7 @@ namespace InterfaceAbstractDemo.Abstract
             throw new NotImplementedException();
         }
 
+
         public virtual void Save(Customer customer)
         {
             Console.WriteLine("Saved to DB : " + customer.FirstName);
